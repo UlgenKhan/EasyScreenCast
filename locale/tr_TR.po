@@ -1,0 +1,551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-28 15:28+0100\n"
+"PO-Revision-Date: 2026-05-26 22:55+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: prefs.js:47 prefs.js:992 extension.js:68 extension.js:236
+msgid "Unspecified webcam"
+msgstr "Tanımlanmamış video kamera"
+
+#: prefs.js:64
+msgid "Could not load the preferences UI file"
+msgstr "Tercihler arayüzü dosyasını yükleyemedik"
+
+#: prefs.js:403
+msgid "WebCam Caps"
+msgstr "Video Kamera Kayıtları"
+
+#: prefs.js:855
+msgid "No Gstreamer pipeline found"
+msgstr "Gstreamer işlem hattı bulunamadı."
+
+#: prefs.js:934
+msgid "Version: "
+msgstr "Sürüm: "
+
+#: prefs.js:1075
+msgid ""
+"<span foreground=\"red\">No Caps selected, please select one from the caps "
+"list</span>"
+msgstr ""
+"<span foreground=\"red\">Seçili kayıt yok, lütfen kayıt listesinden bir tane "
+"seçiniz</span>"
+
+#: prefs.js:1086 Options_UI.glade.h:37
+msgid "No webcam device selected"
+msgstr "Seçili Video Kamera Yok"
+
+#: prefs.js:1088 Options_UI.glade.h:38
+msgid "-"
+msgstr ""
+
+#: prefs.js:1182 Options_UI.glade.h:92
+msgid "EasyScreenCast"
+msgstr ""
+
+#: extension.js:136 extension.js:462
+msgid "No audio source"
+msgstr "Ses Kaynağı Yok"
+
+#: extension.js:147 Options_UI.glade.h:1
+msgid "Options"
+msgstr "Ayarlar"
+
+#: extension.js:269 extension.js:881
+msgid "Start recording"
+msgstr "Kayda Başla"
+
+#: extension.js:343 extension.js:844
+msgid " sec. delay before recording"
+msgstr " Kayıt öncesi beklenecek saniye"
+
+#: extension.js:345 extension.js:846
+msgid "Start recording immediately"
+msgstr "Anında kayda başla"
+
+#: extension.js:357
+msgid "Record all desktop"
+msgstr "Tüm masaüstünü kaydet"
+
+#: extension.js:358
+msgid "Record a selected monitor"
+msgstr "Seçilen bir monitörü kaydet"
+
+#: extension.js:359
+msgid "Record a selected window"
+msgstr "Seçilen bir pencereyi kaydet"
+
+#: extension.js:360
+msgid "Record a selected area"
+msgstr "Seçilen bir alanı kaydet"
+
+#: extension.js:403
+msgid "No WebCam recording"
+msgstr "Kayıtta olan bir video kamera yok"
+
+#: extension.js:469
+msgid "Default audio source"
+msgstr "Varsayılan ses kaynağı"
+
+#: extension.js:489
+msgid ""
+"\n"
+" - Port: "
+msgstr ""
+"\n"
+" - Giriş: "
+
+#: extension.js:491
+msgid ""
+"\n"
+" - Name: "
+msgstr ""
+"\n"
+" - Ad: "
+
+#: extension.js:542
+msgid "Delay Time"
+msgstr "Gecikme süresi"
+
+#: extension.js:550 extension.js:564
+msgid " Sec"
+msgstr " Saniye"
+
+#: extension.js:659
+msgid "ERROR PRE COMMAND - See logs for more info"
+msgstr "KOMUT ÖNCESİ HATA - daha fazla bilgi için uygulama kayıtlarına bakınız"
+
+#: extension.js:768
+msgid "Start Recording"
+msgstr "Kayda Başla"
+
+#: extension.js:794
+msgid "ERROR RECORDER - See logs for more info"
+msgstr "KAYDEDİCİ HATASI - daha fazla bilgi için uygulama kayıtlarına bakınız"
+
+#: extension.js:818
+msgid "Recording ... / Seconds passed : "
+msgstr "Kaydediyor ... / Geçen Saniye : "
+
+#: extension.js:873
+msgid "Stop recording"
+msgstr "Kaydı Durdur"
+
+#: selection.js:209
+msgid "Select an area for recording or press [ESC] to abort"
+msgstr "Kaydetmek için bir alanı seçin veya [ESC] tuşuna basarak iptal edin"
+
+#: selection.js:264
+msgid "Select a window for recording or press [ESC] to abort"
+msgstr "Kaydetmek için bir pencere seçin veya [ESC] tuşuna basarak iptal edin"
+
+#: selection.js:371
+msgid "Select a desktop for recording or press [ESC] to abort"
+msgstr "Kaydetmek için bir masaüstü seçin veya [ESC] tuşuna basarak iptal edin"
+
+#: Options_UI.glade.h:2
+msgid "Recording status indicators"
+msgstr "Kayıt durumu göstergeleri"
+
+#: Options_UI.glade.h:3
+msgid "Show alerts and notifications"
+msgstr "Uyarıları ve bildirimleri göster"
+
+#: Options_UI.glade.h:4
+msgid "Show a border around the area being recorded"
+msgstr "Kaydedilen alanın etrafına bir çerçeve çizin"
+
+#: Options_UI.glade.h:5
+msgid "Enable keyboard shortcut"
+msgstr "Klavye kısayolunu etkinleştir"
+
+#: Options_UI.glade.h:6
+msgid "Both  [ESC + Default]"
+msgstr "İkisi de  [ESC + Varsayılan]"
+
+#: Options_UI.glade.h:7
+msgid "ESC only"
+msgstr "Sadece ESC"
+
+#: Options_UI.glade.h:8
+msgid "Default only"
+msgstr "Sadece Varsayılan"
+
+#: Options_UI.glade.h:9
+msgid "Not any"
+msgstr "Hiçbiri"
+
+#: Options_UI.glade.h:10
+msgid ""
+"These words will be replaced\n"
+" _fpath = the absolute path of the screencast video file.\n"
+"_dirpath = the absolute path of destination folder for the screencast video "
+"file.\n"
+"_fname = the name of the screencast video file."
+msgstr ""
+"Bu kelimeler değiştirilecektir\r\n"
+" _fpath = Ekran kaydı video dosyasının mutlak yolu.\r\n"
+"_dirpath = Ekran kaydı video dosyasının hedef klasörünün mutlak yolu.\r\n"
+"_fname = Ekran kaydı video dosyasının adı."
+
+#: Options_UI.glade.h:14
+msgid "Command post-recording"
+msgstr "Kayıt sonrası komut"
+
+#: Options_UI.glade.h:15
+msgid "Execute command after recording"
+msgstr "Kayıttan sonra komut çalıştır"
+
+#: Options_UI.glade.h:16
+msgid "Draw cursor on screencast"
+msgstr "Kayıttayken imleci göster"
+
+#: Options_UI.glade.h:17
+msgid "Active shortcut"
+msgstr "Etkin kısayol"
+
+#: Options_UI.glade.h:18
+msgid "Execute command before recording"
+msgstr "Kayıttan önce komut çalıştır"
+
+#: Options_UI.glade.h:19
+msgid ""
+"These words will be replaced\n"
+"_dirpath = the absolute path of destination folder for the screencast video "
+"file."
+msgstr ""
+"Bu kelimeler değiştirilecektir\r\n"
+"_dirpath = ekran kaydı video dosyasının kaydedileceği hedef klasörün mutlak "
+"yolu."
+
+#: Options_UI.glade.h:21
+msgid "Command pre-recording"
+msgstr "Kayıt öncesi komutu"
+
+#: Options_UI.glade.h:22
+msgid "Quality"
+msgstr "Kalite"
+
+#: Options_UI.glade.h:23
+msgid "Custom GStreamer Pipeline"
+msgstr "Özel GStreamer İşlem Hattı"
+
+#: Options_UI.glade.h:24
+msgid "PagePreset"
+msgstr "Sayfa Önayarı"
+
+#: Options_UI.glade.h:25
+msgid "No GSP description\n"
+msgstr ""
+"GSP açıklaması yok\n"
+"\n"
+
+#: Options_UI.glade.h:27
+msgid "PageCustom"
+msgstr "Sayfa Özel"
+
+#: Options_UI.glade.h:28
+msgid "Frames Per Second"
+msgstr "Saniye Başına Kare"
+
+#: Options_UI.glade.h:29
+msgid "0"
+msgstr ""
+
+#: Options_UI.glade.h:30
+msgid "GStreamer Pipeline"
+msgstr "GStreamer İşlem Hattı"
+
+#: Options_UI.glade.h:31
+msgid ""
+"The extension does NOT handle the webcam and audio when you use a custom "
+"gstreamer pipeline.\n"
+msgstr ""
+"Özel bir GStreamer işlem hattı kullandığınızda, eklenti web kamerasını ve "
+"sesi işlemez.\n"
+
+#: Options_UI.glade.h:33
+msgid "Official doc"
+msgstr "Resmi doküman"
+
+#: Options_UI.glade.h:34
+msgid "Wiki #1"
+msgstr ""
+
+#: Options_UI.glade.h:35
+msgid "Wiki #2"
+msgstr ""
+
+#: Options_UI.glade.h:36
+msgid "WebCam"
+msgstr "Video Kamera"
+
+#: Options_UI.glade.h:39
+msgid "Size"
+msgstr "Boyut"
+
+#: Options_UI.glade.h:40
+msgid "Type of unit of measure"
+msgstr "Ölçü birimi türü"
+
+#: Options_UI.glade.h:41
+msgid "Width"
+msgstr "Genişik"
+
+#: Options_UI.glade.h:42
+msgid "Height"
+msgstr "Yükseklik"
+
+#: Options_UI.glade.h:43
+msgid "Percentage"
+msgstr "Yüzde"
+
+#: Options_UI.glade.h:44
+msgid "Pixel"
+msgstr "Piksel"
+
+#: Options_UI.glade.h:45
+msgid "Position"
+msgstr "Konum"
+
+#: Options_UI.glade.h:46
+msgid "Put the webcam in the corner"
+msgstr "Web kamerasını köşeye yerleştir"
+
+#: Options_UI.glade.h:47
+msgid "Right-Bottom"
+msgstr "Sağ-Alt"
+
+#: Options_UI.glade.h:48
+msgid "Left-Bottom"
+msgstr "Sol-Alt"
+
+#: Options_UI.glade.h:49
+msgid "Right-Top"
+msgstr "Sağ-Üst"
+
+#: Options_UI.glade.h:50
+msgid "Left-Top"
+msgstr "Sol-Üst"
+
+#: Options_UI.glade.h:51
+msgid "Margin X"
+msgstr "X Ekseni Boşluğu"
+
+#: Options_UI.glade.h:52
+msgid "Margin Y"
+msgstr "Y Ekseni Boşluğu"
+
+#: Options_UI.glade.h:53
+msgid "Alpha channel"
+msgstr "Alfa kanalı (Saydamlık değeri)"
+
+#: Options_UI.glade.h:54
+msgid "0,00"
+msgstr ""
+
+#: Options_UI.glade.h:55
+msgid "File"
+msgstr "Dosya"
+
+#: Options_UI.glade.h:56
+msgid ""
+"Select the folder where the file is saved, if not specific a folder  the "
+"file will be saved in the $XDG_VIDEOS_DIR if it exists, or the home "
+"directory otherwise."
+msgstr ""
+"Dosyanın kaydedileceği klasörü seçin; bir klasör belirtilmezse dosya, varsa "
+"$XDG_VIDEOS_DIR (Video klasörü) dizinine, yoksa ana dizine (ev) "
+"kaydedilecektir."
+
+#: Options_UI.glade.h:57
+msgid "Destination folder"
+msgstr "Hedef klasöür"
+
+#: Options_UI.glade.h:59
+#, no-c-format
+msgid ""
+"The filename which may contain some escape sequences - %d and %t will be "
+"replaced by the start date and time of the recording."
+msgstr ""
+"Bazı kaçış dizilerini içerebilen dosya adı - %d ve %t ifadeleri, kaydın "
+"başlangıç tarihi ve saati ile değiştirilecektir."
+
+#: Options_UI.glade.h:60
+msgid "File name template"
+msgstr "Dosya adı şablonu"
+
+#: Options_UI.glade.h:61
+msgid "File container"
+msgstr "Dosya formatı"
+
+#: Options_UI.glade.h:62
+msgid "File resolution"
+msgstr "Dosya çözünürlüğü"
+
+#: Options_UI.glade.h:63
+msgid "Native"
+msgstr "Yerel"
+
+#: Options_UI.glade.h:64
+msgid "Native area resolution"
+msgstr "Yerel alan çözünürlüğü"
+
+#: Options_UI.glade.h:65
+msgid "Preset"
+msgstr "Önayar"
+
+#: Options_UI.glade.h:66
+msgid "Preset helper"
+msgstr "Önayar yardımcısı"
+
+#: Options_UI.glade.h:67
+msgid "HD [720p] [16:9]"
+msgstr ""
+
+#: Options_UI.glade.h:68
+msgid "XGA [768p] [4:3]"
+msgstr ""
+
+#: Options_UI.glade.h:69
+msgid "HD ready [768p] [16:9]"
+msgstr ""
+
+#: Options_UI.glade.h:70
+msgid "SXGA [1024p] [5:4]"
+msgstr ""
+
+#: Options_UI.glade.h:71
+msgid "Full HD [1080p] [16:9]"
+msgstr ""
+
+#: Options_UI.glade.h:72
+msgid "UXGA [1200p] [4:3]"
+msgstr ""
+
+#: Options_UI.glade.h:73
+msgid "QHD [1440p] [16:9]"
+msgstr ""
+
+#: Options_UI.glade.h:74
+msgid "QSXGA [2048p] [5:4]"
+msgstr ""
+
+#: Options_UI.glade.h:75
+msgid "4K [2160p] [16:9]"
+msgstr ""
+
+#: Options_UI.glade.h:76
+msgid "Custom"
+msgstr "Özel"
+
+#: Options_UI.glade.h:77
+msgid "keep original aspect ratio"
+msgstr "orijinal en-boy oranını koru"
+
+#: Options_UI.glade.h:78
+msgid "Support"
+msgstr "Destek"
+
+#: Options_UI.glade.h:79
+msgid ""
+"This option enable more debug message, to view these run this command into a "
+"terminal:\n"
+"$ journalctl --since=today --no-pager | grep js\n"
+"$ dbus-monitor \"interface=org.gnome.Shell.Screencast\""
+msgstr ""
+"Bu seçenek daha fazla hata ayıklama mesajını etkinleştirir, bunları "
+"görüntülemek için terminalde şu komutu çalıştırın:\n"
+"$ journalctl --since=today --no-pager | grep js\n"
+"$ dbus-monitor \"interface=org.gnome.Shell.Screencast\""
+
+#: Options_UI.glade.h:82
+msgid "Enable verbose debug"
+msgstr "Ayrıntılı hata ayıklamayı etkinleştir"
+
+#: Options_UI.glade.h:83
+msgid ""
+"This option enable more debug message, to view these run this command into a "
+"terminal:\n"
+"$ journalctl /usr/bin/gnome-session --since=today | grep js\n"
+"$ dbus-monitor \"interface=org.gnome.Shell.Screencast\""
+msgstr ""
+"Bu seçenek daha fazla hata ayıklama mesajını etkinleştirir, bunları "
+"görüntülemek için terminalde şu komutu çalıştırın:\n"
+"$ journalctl /usr/bin/gnome-session --since=today | grep js\n"
+"$ dbus-monitor \"interface=org.gnome.Shell.Screencast\""
+
+#: Options_UI.glade.h:86
+msgid "extension"
+msgstr "uzantı"
+
+#: Options_UI.glade.h:87
+msgid "last Gstreamer pipeline"
+msgstr "son kullanılan GStreamer işlem hattı"
+
+#: Options_UI.glade.h:88
+msgid "gnome shell"
+msgstr ""
+
+#: Options_UI.glade.h:89
+msgid "Display the log of"
+msgstr "Şu günlüğü görüntüle"
+
+#: Options_UI.glade.h:90
+msgid "Restore default options"
+msgstr "Fabrika ayarlarına dön"
+
+#: Options_UI.glade.h:91
+msgid "Info"
+msgstr "Bilgi"
+
+#: Options_UI.glade.h:93
+msgid "N/A"
+msgstr "Yok"
+
+#: Options_UI.glade.h:94
+msgid ""
+"This extension simplifies the use of the\n"
+"screen recorder  included in gnome shell"
+msgstr ""
+"Bu eklenti, gnome shell içerisine dahil edilmiş\n"
+"ekran kaydedicinin kullanımını basitleştirir"
+
+#: Options_UI.glade.h:96
+msgid "This software is licensed under GPL v3"
+msgstr "Bu yazılım GPL v3 lisansı ile lisanslanmıştır"
+
+#: Options_UI.glade.h:97
+msgid "Credits"
+msgstr "Emeği Geçenler"
+
+#: Options_UI.glade.h:98
+msgid "How to contribute?"
+msgstr "Nasıl katkıda bulunabilirim?"
+
+#: Options_UI.glade.h:99
+msgid "With a translation"
+msgstr "Çevirerek"
+
+#: Options_UI.glade.h:100
+msgid "Reporting bugs"
+msgstr "Sorun bildirerek"
+
+#: Options_UI.glade.h:101
+msgid "Add code"
+msgstr "Kodlayarak"
