@@ -3,6 +3,7 @@
 **🚀 Implemented enhancements:**
 
 **🎉 Merged pull requests:**
+* [#391](https://github.com/EasyScreenCast/EasyScreenCast/pull/391): Add Turkish translation for EasyScreenCast ([@UlgenKhan](https://github.com/UlgenKhan))
 
 **🐛 Fixed bugs:**
 
