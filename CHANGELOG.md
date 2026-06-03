@@ -1,15 +1,9 @@
-# next
-
-**🚀 Implemented enhancements:**
+# 1.13.2 (58) (2026-06-03)
 
 **🎉 Merged pull requests:**
 * [#391](https://github.com/EasyScreenCast/EasyScreenCast/pull/391): Add Turkish translation for EasyScreenCast ([@UlgenKhan](https://github.com/UlgenKhan))
 
-**🐛 Fixed bugs:**
-
-**📦 Dependency updates:**
-
-**Full Changelog**: <https://github.com/EasyScreenCast/EasyScreenCast/compare/1.13.1...HEAD>
+**Full Changelog**: <https://github.com/EasyScreenCast/EasyScreenCast/compare/1.13.1...1.13.2>
 
 # 1.13.1 (57) (2026-05-16)
 
