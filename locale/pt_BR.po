@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EasyScreenCast\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-28 15:28+0100\n"
+"POT-Creation-Date: 2026-06-03 20:00+0200\n"
 "PO-Revision-Date: 2024-03-28 16:09+0100\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
@@ -19,27 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: prefs.js:47 prefs.js:992 extension.js:68 extension.js:236
+#: prefs.js:44 prefs.js:929 extension.js:243
 msgid "Unspecified webcam"
 msgstr "Webcam não especificada"
 
-#: prefs.js:64
+#: prefs.js:61
 msgid "Could not load the preferences UI file"
 msgstr "Não foi possível carregar o arquivo de preferências da interface"
 
-#: prefs.js:403
+#: prefs.js:399
 msgid "WebCam Caps"
 msgstr "Capacidades da WebCam"
 
-#: prefs.js:855
+#: prefs.js:822
 msgid "No Gstreamer pipeline found"
 msgstr "Nenhum pipeline de GStreamer encontrado"
 
-#: prefs.js:934
+#: prefs.js:871
 msgid "Version: "
 msgstr "Versão: "
 
-#: prefs.js:1075
+#: prefs.js:1010
 msgid ""
 "<span foreground=\"red\">No Caps selected, please select one from the caps "
 "list</span>"
@@ -47,63 +47,63 @@ msgstr ""
 "<span foreground=\"red\">Nenhuma Capacidade selecionada; por favor, "
 "selecione uma da lista de capacidades</span>"
 
-#: prefs.js:1086 Options_UI.glade.h:37
+#: prefs.js:1021 Options_UI.glade.h:37
 msgid "No webcam device selected"
 msgstr "Nenhuma webcam selecionada"
 
-#: prefs.js:1088 Options_UI.glade.h:38
+#: prefs.js:1023 Options_UI.glade.h:38
 msgid "-"
 msgstr "-"
 
-#: prefs.js:1182 Options_UI.glade.h:92
+#: prefs.js:1116 Options_UI.glade.h:92
 msgid "EasyScreenCast"
 msgstr "EasyScreenCast"
 
-#: extension.js:136 extension.js:462
+#: extension.js:142 extension.js:466
 msgid "No audio source"
 msgstr "Sem fonte de áudio"
 
-#: extension.js:147 Options_UI.glade.h:1
+#: extension.js:153 Options_UI.glade.h:1
 msgid "Options"
 msgstr "Opções"
 
-#: extension.js:269 extension.js:881
+#: extension.js:275 extension.js:883
 msgid "Start recording"
 msgstr "Iniciar gravação"
 
-#: extension.js:343 extension.js:844
+#: extension.js:346 extension.js:849
 msgid " sec. delay before recording"
 msgstr " seg de atraso antes da gravação"
 
-#: extension.js:345 extension.js:846
+#: extension.js:348 extension.js:851
 msgid "Start recording immediately"
 msgstr "Iniciar gravação imediatamente"
 
-#: extension.js:357
+#: extension.js:360
 msgid "Record all desktop"
 msgstr "Gravar toda a área de trabalho"
 
-#: extension.js:358
+#: extension.js:361
 msgid "Record a selected monitor"
 msgstr "Gravar um monitor selecionado"
 
-#: extension.js:359
+#: extension.js:362
 msgid "Record a selected window"
 msgstr "Gravar uma janela selecionada"
 
-#: extension.js:360
+#: extension.js:363
 msgid "Record a selected area"
 msgstr "Gravar uma área selecionada"
 
-#: extension.js:403
+#: extension.js:407
 msgid "No WebCam recording"
 msgstr "Nenhuma gravação de WebCam"
 
-#: extension.js:469
+#: extension.js:473
 msgid "Default audio source"
 msgstr "Fonte de áudio padrão"
 
-#: extension.js:489
+#: extension.js:492
 msgid ""
 "\n"
 " - Port: "
@@ -111,7 +111,7 @@ msgstr ""
 "\n"
 " - Porta: "
 
-#: extension.js:491
+#: extension.js:494
 msgid ""
 "\n"
 " - Name: "
@@ -119,43 +119,43 @@ msgstr ""
 "\n"
 " - Nome: "
 
-#: extension.js:542
+#: extension.js:545
 msgid "Delay Time"
 msgstr "Tempo de atraso"
 
-#: extension.js:550 extension.js:564
+#: extension.js:553 extension.js:567
 msgid " Sec"
 msgstr " seg"
 
-#: extension.js:659
+#: extension.js:668
 msgid "ERROR PRE COMMAND - See logs for more info"
 msgstr "ERRO PRÉ-COMANDO - Consulte os logs para maiores informações"
 
-#: extension.js:768
+#: extension.js:773
 msgid "Start Recording"
 msgstr "Iniciar gravação"
 
-#: extension.js:794
+#: extension.js:799
 msgid "ERROR RECORDER - See logs for more info"
 msgstr "ERRO NA GRAVAÇÃO - Consulte os logs para maiores informações"
 
-#: extension.js:818
+#: extension.js:823
 msgid "Recording ... / Seconds passed : "
 msgstr "Gravação em andamento / segundos passado : "
 
-#: extension.js:873
+#: extension.js:876
 msgid "Stop recording"
 msgstr "Parar gravação"
 
-#: selection.js:209
+#: selection.js:199
 msgid "Select an area for recording or press [ESC] to abort"
 msgstr "Selecione uma área para gravar ou pressione [ESC] para abortar"
 
-#: selection.js:264
+#: selection.js:249
 msgid "Select a window for recording or press [ESC] to abort"
 msgstr "Selecione uma janela para gravar ou pressione [ESC] para abortar"
 
-#: selection.js:371
+#: selection.js:343
 msgid "Select a desktop for recording or press [ESC] to abort"
 msgstr ""
 "Selecione uma área de trabalho para gravar ou pressione [ESC] para abortar"
