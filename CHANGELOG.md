@@ -10,7 +10,7 @@
 
 **Full Changelog**: <https://github.com/EasyScreenCast/EasyScreenCast/compare/1.13.1...HEAD>
 
-# 1.13.1 (56) (2026-05-16)
+# 1.13.1 (57) (2026-05-16)
 
 **🎉 Merged pull requests:**
 * [#387](https://github.com/EasyScreenCast/EasyScreenCast/pull/387): chore: fix shexli issues ([@adangel](https://github.com/adangel))
