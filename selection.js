@@ -378,31 +378,49 @@ export const AreaRecording = GObject.registerClass({
         super();
         Lib.TalkativeLog('-£-area recording init');
 
-        this._areaRecording = new St.Widget({
-            name: 'area-recording',
-            style_class: 'area-recording',
-            visible: 'true',
-            reactive: 'false',
-            x: -10,
-            y: -10,
-        });
+        // The recording-area indicator is drawn as a hollow frame made of four
+        // thin edge strips (top/bottom/left/right) rather than a single widget
+        // covering the whole recorded rectangle.
+        //
+        // Two problems are fixed here:
+        //  1. The previous widget used the strings 'true'/'false' for
+        //     visible/reactive. A non-empty string is truthy in JS, so
+        //     reactive:'false' made the indicator REACTIVE: it covered the whole
+        //     region and swallowed every pointer event, so nothing inside the
+        //     recorded area could be clicked (issue #24).
+        //  2. Even once made non-reactive, a single actor spanning the whole
+        //     region still interferes with click-to-focus/raise of non-focused
+        //     windows beneath it. Four edge strips leave the interior free of
+        //     any actor, so clicks inside behave as if no indicator were present.
+        this._borderThickness = 2;
+        this._edges = [];
+        for (let edgeIndex = 0; edgeIndex < 4; edgeIndex++) {
+            const edge = new St.Widget({
+                name: 'area-recording',
+                style_class: 'area-recording-edge',
+                visible: true,
+                reactive: false,
+                x: -10,
+                y: -10,
+            });
+            Main.uiGroup.add_child(edge);
+            this._edges.push(edge);
+        }
 
         let [recX, recY, recW, recH] = Ext.Indicator.getSelectedRect();
         let tmpH = Main.layoutManager.currentMonitor.height;
         let tmpW = Main.layoutManager.currentMonitor.width;
 
-        Main.uiGroup.add_child(this._areaRecording);
-
         Main.overview.connect('showing', () => {
             Lib.TalkativeLog('-£-overview opening');
 
-            Main.uiGroup.remove_child(this._areaRecording);
+            this._edges.forEach(edge => Main.uiGroup.remove_child(edge));
         });
 
         Main.overview.connect('hidden', () => {
             Lib.TalkativeLog('-£-overview closed');
 
-            Main.uiGroup.add_child(this._areaRecording);
+            this._edges.forEach(edge => Main.uiGroup.add_child(edge));
         });
 
         if (recX + recW <= tmpW - 5 && recY + recH <= tmpH - 5)
@@ -419,8 +437,30 @@ export const AreaRecording = GObject.registerClass({
         Lib.TalkativeLog('-£-draw area recording');
 
         this._visible = true;
-        this._areaRecording.set_position(x, y);
-        this._areaRecording.set_size(w, h);
+
+        // clearArea() passes w/h = 0 to hide the frame: collapse all strips.
+        if (w <= 0 || h <= 0) {
+            this._edges.forEach(edge => {
+                edge.set_position(-10, -10);
+                edge.set_size(0, 0);
+            });
+            return;
+        }
+
+        const t = this._borderThickness;
+        const [top, bottom, left, right] = this._edges;
+
+        top.set_position(x, y);
+        top.set_size(w, t);
+
+        bottom.set_position(x, y + h - t);
+        bottom.set_size(w, t);
+
+        left.set_position(x, y);
+        left.set_size(t, h);
+
+        right.set_position(x + w - t, y);
+        right.set_size(t, h);
     }
 
     /**
