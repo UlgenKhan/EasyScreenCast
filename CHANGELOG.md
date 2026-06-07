@@ -3,8 +3,11 @@
 **🚀 Implemented enhancements:**
 
 **🎉 Merged pull requests:**
+* [#392](https://github.com/EasyScreenCast/EasyScreenCast/pull/392): Fix #293: Make recording-area border click-through via a hollow frame ([@RandyHaylor](https://github.com/RandyHaylor))
 
 **🐛 Fixed bugs:**
+* [#24](https://github.com/EasyScreenCast/EasyScreenCast/issues/24): Showing the recording area rectangle breaks the mouse clicks ([@nekohayo](https://github.com/nekohayo))
+* [#293](https://github.com/EasyScreenCast/EasyScreenCast/issues/293): Cursor does not work when showing recording area ([@antonio24073](https://github.com/antonio24073))
 
 **📦 Dependency updates:**
 
