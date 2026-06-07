@@ -8,11 +8,6 @@
     border: 2px solid rgba(255, 0, 0, 1);
 }
 
-.area-recording {
-    border-style: dashed;
-    border: 2px rgba(255, 0, 0, 1);
-}
-
 /* Edge strip of the hollow recording-area frame (see AreaRecording in
    selection.js). The frame is built from four of these 2px strips so it marks
    the recorded area without covering its interior. */

@@ -380,18 +380,11 @@ export const AreaRecording = GObject.registerClass({
 
         // The recording-area indicator is drawn as a hollow frame made of four
         // thin edge strips (top/bottom/left/right) rather than a single widget
-        // covering the whole recorded rectangle.
-        //
-        // Two problems are fixed here:
-        //  1. The previous widget used the strings 'true'/'false' for
-        //     visible/reactive. A non-empty string is truthy in JS, so
-        //     reactive:'false' made the indicator REACTIVE: it covered the whole
-        //     region and swallowed every pointer event, so nothing inside the
-        //     recorded area could be clicked (issue #24).
-        //  2. Even once made non-reactive, a single actor spanning the whole
-        //     region still interferes with click-to-focus/raise of non-focused
-        //     windows beneath it. Four edge strips leave the interior free of
-        //     any actor, so clicks inside behave as if no indicator were present.
+        // covering the whole recorded rectangle. A single widget would swallow
+        // all events (including focus, pointer events), so nothing inside the
+        // recorded area could be clicked (see also issues #24, #293).
+        // Four edge strips leave the interior free of any actor, so clicks
+        // inside behave as if no indicator were present.
         this._borderThickness = 2;
         this._edges = [];
         for (let edgeIndex = 0; edgeIndex < 4; edgeIndex++) {
