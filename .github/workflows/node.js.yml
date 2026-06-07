@@ -12,13 +12,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         fetch-depth: 0
-    - name: Use Node.js 20
-      uses: actions/setup-node@v4
+    - name: Use Node.js 24
+      uses: actions/setup-node@v6
       with:
-        node-version: 20
+        node-version: 24
         cache: 'npm'
     - name: Install gettext, intltool and jq
       run: |
@@ -28,7 +28,7 @@ jobs:
     - run: npm ci
     - run: npm run lint
     - run: make zip-file
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v7
       with:
         name: EasyScreenCast
         path: EasyScreenCast_*.zip

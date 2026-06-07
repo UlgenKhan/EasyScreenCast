@@ -4,6 +4,7 @@
 
 **🎉 Merged pull requests:**
 * [#392](https://github.com/EasyScreenCast/EasyScreenCast/pull/392): Fix #293: Make recording-area border click-through via a hollow frame ([@RandyHaylor](https://github.com/RandyHaylor))
+* [#393](https://github.com/EasyScreenCast/EasyScreenCast/pull/393): Bump gh-actions and node ([@adangel](https://github.com/adangel))
 
 **🐛 Fixed bugs:**
 * [#24](https://github.com/EasyScreenCast/EasyScreenCast/issues/24): Showing the recording area rectangle breaks the mouse clicks ([@nekohayo](https://github.com/nekohayo))
